@@ -1,0 +1,48 @@
+﻿@model ASP_202.Models.Forum.ForumSectionsModel
+@{
+    ViewData["Title"] = "Раздел";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Раздел</h1>
+</div>
+
+
+@ViewData["id"]
+
+@foreach(var Theme in Model.Themes)
+ {
+    @Html.DisplayFor(m => Theme, "ThemeTemplate")
+ }
+
+@if (Model.UserCanCreate)
+{
+    <div class="row">
+        <div class="col col-6">
+            <h5 class="modal-title" id="authModalLabel">Створити новий розділ</h5>
+            @if (Model.CreateMessage is not null)
+            {
+                <div class="alert alert-@(Model.IsMessagePositive == true ? "success" : "danger" )" role="alert">
+                    @Model.CreateMessage
+                </div>
+            }
+            <form asp-controller="Forum" asp-action="CreateTheme" method="post">
+                <div class="form-group">
+                    <label for="theme-title">Название</label>
+                    <input type="text" class="form-control"
+                           id="theme-title" name="theme-title"
+                           value="@(Model.FormModel is null?"":Model.FormModel.Title)"
+                           placeholder="Название раздела" />
+                </div>
+                <div class="form-group">
+                    <label for="theme-description" class="form-label">Опис</label>
+                    <textarea class="form-control" id="theme-description" rows="3" name="theme-description"
+                                               placeholder="Описание нового раздела">@(Model.FormModel is null?"":Model.FormModel.Description)</textarea>
+                </div>
+                <input type="hidden" name="section-id" value="@ViewData["id"]"/>
+                <button type="submit" class="btn btn-light my-3">Создать</button>
+            </form>
+        </div>
+    </div>
+}
+

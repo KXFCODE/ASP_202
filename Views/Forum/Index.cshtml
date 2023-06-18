@@ -1,0 +1,83 @@
+﻿@model ASP_202.Models.Forum.ForumIndexModel
+@{
+    ViewData["Title"] = "Форум";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Форум</h1>
+</div>
+<div class="row">
+    <div class="col col-6">
+
+    @foreach (var Section in Model.Sections)
+    {
+        @Html.DisplayFor(m => Section, "Section");
+    }
+
+    </div>
+</div>
+
+@if (Model.UserCanCreate)
+{
+    <div class="row">
+        <div class="col col-6">
+            <h5 class="modal-title" id="authModalLabel">Створити новий розділ</h5>
+            @if (Model.CreateMessage is not null)
+            {
+                <div class="alert alert-@(Model.IsMessagePositive == true ? "success" : "danger" )" role="alert">
+                    @Model.CreateMessage
+                </div>
+            }
+            <form asp-controller="Forum" asp-action="CreateSection" method="post">
+                <div class="form-group">
+                    <label for="section-title">Название</label>
+                    <input type="text" class="form-control"
+                           id="section-title" name="section-title"
+                           value="@(Model.FormModel is null?"":Model.FormModel.Title)"
+                           placeholder="Название раздела" />
+                </div>
+                <div class="form-group">
+                    <label for="section-description" class="form-label">Опис</label>
+                    <textarea class="form-control" id="section-description" rows="3" name="section-description"
+                                               placeholder="Описание нового раздела">@(Model.FormModel is null?"":Model.FormModel.Description)</textarea>
+                </div>
+                <button type="submit" class="btn btn-light my-3">Создать</button>
+            </form>
+        </div>
+    </div>
+}
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        for( let elem of document.querySelectorAll("[data-rate]")){
+            elem.addEventListener('click', rateClick);
+        }
+    });
+    function rateClick(e){
+        const userSidElement = document.querySelector("[data-user-sid]");
+        if (!userSidElement)
+        {
+            alert("Для оценки необходимо войти в аккаунт");
+            return;
+        }
+        const target = e.target.closest("span");
+        const isGiven = target.getAttribute("data-rate-given") === "True";
+        const data = {
+         "itemId": target.getAttribute("data-rate"),
+         "userId": userSidElement.getAttribute("data-user-sid"),
+         "value": target.getAttribute("data-rate-value")
+         };
+        const apiMethod = isGiven ? "DELETE" : "POST";
+        console.log(data);
+        fetch("/api/rates",{
+        method: apiMethod,
+        headers: {
+        "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+        })
+        .then(r => r.json())
+        .then(j => console.log(j));
+
+    }
+</script>

@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\avatars\" />
+    <Folder Include="Data\" />
+    <Folder Include="Services\Random\" />
+    <Folder Include="Services\Kdf\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="wwwroot\img\icons\" />
+    <Folder Include="Services\Validation\" />
+    <Folder Include="Services\Email\" />
+    <Folder Include="EmailTemplates\" />
+    <Folder Include="Models\Email\" />
+    <Folder Include="Views\Forum\" />
+    <Folder Include="Models\Forum\" />
+    <Folder Include="Views\Forum\DisplayTemplates\" />
+    <Folder Include="wwwroot\img\logos\" />
+    <Folder Include="Services\Display\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Data\" />
+    <None Remove="Data\Entity\" />
+    <None Remove="Services\Random\" />
+    <None Remove="Services\Kdf\" />
+    <None Remove="Middleware\" />
+    <None Remove="Services\Validation\" />
+    <None Remove="Services\Email\" />
+    <None Remove="EmailTemplates\" />
+    <None Remove="Models\Email\" />
+    <None Remove="Views\Forum\" />
+    <None Remove="Models\Forum\" />
+    <None Remove="Views\Forum\DisplayTemplates\" />
+    <None Remove="Services\Display\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\img\icons\" />
+    <Content Remove="wwwroot\img\logos\" />
+  </ItemGroup>
+</Project>

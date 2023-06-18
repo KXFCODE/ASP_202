@@ -1,0 +1,393 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/obj/Debug/net6.0/scopedcss/projectbundle/ASP_202.bundle.scp.css",
+      "PackagePath": "staticwebassets/ASP_202.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/0E92CB2A5122C2C5.png",
+      "PackagePath": "staticwebassets/avatars/0E92CB2A5122C2C5.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/0FB627DA845664BF.jpg",
+      "PackagePath": "staticwebassets/avatars/0FB627DA845664BF.jpg"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/2C3F8ABA1FDE1BAA.jpg",
+      "PackagePath": "staticwebassets/avatars/2C3F8ABA1FDE1BAA.jpg"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/301FD8A02F395AB8.png",
+      "PackagePath": "staticwebassets/avatars/301FD8A02F395AB8.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/3E94F7A7E260C4AC.png",
+      "PackagePath": "staticwebassets/avatars/3E94F7A7E260C4AC.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/74D9C2B967ACBD3B.png",
+      "PackagePath": "staticwebassets/avatars/74D9C2B967ACBD3B.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/88AE82787DBEBAED.png",
+      "PackagePath": "staticwebassets/avatars/88AE82787DBEBAED.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/AE0A20B2223F58F5.png",
+      "PackagePath": "staticwebassets/avatars/AE0A20B2223F58F5.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/DEA97F6F1DCAF748.png",
+      "PackagePath": "staticwebassets/avatars/DEA97F6F1DCAF748.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/EE78CB30AF1D92D1.png",
+      "PackagePath": "staticwebassets/avatars/EE78CB30AF1D92D1.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/asp.net.png",
+      "PackagePath": "staticwebassets/avatars/asp.net.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/avatars/no-avatar.png",
+      "PackagePath": "staticwebassets/avatars/no-avatar.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/.DS_Store",
+      "PackagePath": "staticwebassets/img/.DS_Store"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/3942033.png",
+      "PackagePath": "staticwebassets/img/3942033.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/icons/pencil-fill.svg",
+      "PackagePath": "staticwebassets/img/icons/pencil-fill.svg"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/icons/person-check.svg",
+      "PackagePath": "staticwebassets/img/icons/person-check.svg"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/icons/person-dash.svg",
+      "PackagePath": "staticwebassets/img/icons/person-dash.svg"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/icons/person-exclamation.svg",
+      "PackagePath": "staticwebassets/img/icons/person-exclamation.svg"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/icons/person-slash.svg",
+      "PackagePath": "staticwebassets/img/icons/person-slash.svg"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/icons/save.svg",
+      "PackagePath": "staticwebassets/img/icons/save.svg"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section0.png",
+      "PackagePath": "staticwebassets/img/logos/section0.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section1.png",
+      "PackagePath": "staticwebassets/img/logos/section1.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section2.png",
+      "PackagePath": "staticwebassets/img/logos/section2.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section3.png",
+      "PackagePath": "staticwebassets/img/logos/section3.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section4.png",
+      "PackagePath": "staticwebassets/img/logos/section4.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section5.png",
+      "PackagePath": "staticwebassets/img/logos/section5.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section6.png",
+      "PackagePath": "staticwebassets/img/logos/section6.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section7.png",
+      "PackagePath": "staticwebassets/img/logos/section7.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section8.png",
+      "PackagePath": "staticwebassets/img/logos/section8.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/logos/section9.png",
+      "PackagePath": "staticwebassets/img/logos/section9.png"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/img/url.webp",
+      "PackagePath": "staticwebassets/img/url.webp"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/maksim/Projects/ASP_202/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.ASP_202.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.ASP_202.props",
+      "PackagePath": "build\\ASP_202.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.ASP_202.props",
+      "PackagePath": "buildMultiTargeting\\ASP_202.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.ASP_202.props",
+      "PackagePath": "buildTransitive\\ASP_202.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

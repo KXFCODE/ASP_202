@@ -1,0 +1,121 @@
+﻿<Properties StartupConfiguration="{97068540-75CF-4BCE-B2A5-9BE7ED0163BC}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ASP__202 PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Validation/ValidationServiceV1.cs">
+    <Files>
+      <File FileName="appsettings.Development.json" />
+      <File FileName="appsettings.json" />
+      <File FileName="appsettings-example.json" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Data/Entity/User.cs" />
+      <File FileName="Data/DataContext.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Views/Home/Middleware.cshtml" />
+      <File FileName="Middleware/SessionAuthMiddleware.cs" />
+      <File FileName="Services/Random/RandomServiceV1.cs" />
+      <File FileName="Services/Random/IRandomService.cs" />
+      <File FileName="Views/User/RegisterUser.cshtml" />
+      <File FileName="Services/Kdf/IKdfService.cs" />
+      <File FileName="Services/Kdf/HashKdfService.cs" />
+      <File FileName="Controllers/UserController.cs" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/User/Registration.cshtml" />
+      <File FileName="Views/Home/Sessions.cshtml" />
+      <File FileName="Views/User/Profile.cshtml" />
+      <File FileName="wwwroot/css/site.css" />
+      <File FileName="Models/User/ProfileModel.cs" />
+      <File FileName="Models/User/UserUpdateModel.cs" />
+      <File FileName="Services/Validation/IValidationService.cs" />
+      <File FileName="Services/Validation/ValidationTerms.cs" />
+      <File FileName="Services/Validation/ValidationServiceV1.cs" Line="48" Column="1" />
+      <File FileName="Views/Home/EmailConfirmation.cshtml" />
+      <File FileName="Services/Email/IEmailService.cs" />
+      <File FileName="EmailTemplates/confirm_email.html" />
+      <File FileName="Models/Email/ConfirmEmailModel.cs" />
+      <File FileName="Services/Email/GmailService.cs" />
+      <File FileName="Models/StatusDataModel.cs" />
+      <File FileName="Data/Entity/EmailConfirmToken.cs" />
+      <File FileName="Data/Entity/Section.cs" />
+      <File FileName="Data/Entity/Theme.cs" />
+      <File FileName="Data/Entity/Topic.cs" />
+      <File FileName="Data/Entity/Post.cs" />
+      <File FileName="Data/Entity/Rate.cs" />
+      <File FileName="Views/Forum/Index.cshtml" />
+      <File FileName="Models/Forum/ForumSectionFormModel.cs" />
+      <File FileName="Views/Forum/DisplayTemplates/Section.cshtml" />
+      <File FileName="Models/Forum/ForumSectionModel.cs" />
+      <File FileName="Models/Forum/ForumIndexModel.cs" />
+      <File FileName="Models/Forum/ForumSectionsModel.cs" />
+      <File FileName="Models/Forum/ForumThemeFormModel.cs" />
+      <File FileName="Models/Forum/ForumThemeModel.cs" />
+      <File FileName="Views/Forum/Sections.cshtml" />
+      <File FileName="Views/Forum/DisplayTemplates/ThemeTemplate.cshtml" />
+      <File FileName="Views/Forum/Themes.cshtml" />
+      <File FileName="Models/Forum/ForumThemesPageModel.cs" />
+      <File FileName="Models/Forum/ForumTopicViewModel.cs" />
+      <File FileName="Models/Forum/ForumTopicFormModel.cs" />
+      <File FileName="Views/Forum/DisplayTemplates/TopicTemplate.cshtml" />
+      <File FileName="Services/Display/IDisplayService.cs" />
+      <File FileName="Services/Display/DisplayServiceUkr.cs" />
+      <File FileName="Views/Forum/Topics.cshtml" />
+      <File FileName="Views/Forum/ForumTopicsPageModel.cs" />
+      <File FileName="Views/Forum/ForumPostViewModel.cs" />
+      <File FileName="Views/Forum/ForumPostFormModel.cs" />
+      <File FileName="Controllers/ForumController.cs" />
+      <File FileName="Views/Forum/DisplayTemplates/PostTemplate.cshtml" />
+      <File FileName="Views/Home/WebApi.cshtml" />
+      <File FileName="Controllers/RatesController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ASP_202" expanded="True">
+            <Node name="ASP_202" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Entity" expanded="True" />
+              </Node>
+              <Node name="EmailTemplates" expanded="True" />
+              <Node name="Middleware" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Email" expanded="True" />
+                <Node name="Forum" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="User" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Display" expanded="True" />
+                <Node name="Email" expanded="True" />
+                <Node name="Hash" expanded="True" />
+                <Node name="Kdf" expanded="True" />
+                <Node name="Random" expanded="True" />
+                <Node name="Validation" expanded="True">
+                  <Node name="ValidationServiceV1.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Forum" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="User" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="avatars" expanded="True" />
+                <Node name="css" expanded="True" />
+                <Node name="img" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

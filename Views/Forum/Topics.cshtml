@@ -1,0 +1,51 @@
+﻿@model ASP_202.Models.Forum.ForumTopicsPageModel
+@{
+    ViewData["Title"] = "Вопрос";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Title</h1>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        @Model.Description
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+            @foreach (var Post in Model.Posts)
+            {
+                @Html.DisplayFor(m => Post, "PostTemplate")
+            }
+    </div>
+</div>
+@if (Model.UserCanCreate)
+    {
+       <div class="row">
+            <div class="col col-6">
+                <h5 class="modal-title" id="authModalLabel">Дать ответ</h5>
+                @if (Model.CreateMessage is not null)
+                {
+                    <div class="alert alert-@(Model.IsMessagePositive == true ? "success" : "danger" )" role="alert">
+                        @Model.CreateMessage
+                    </div>
+                }
+                <form asp-controller="Forum" asp-action="CreatePost" method="post">
+
+                    <div class="form-group">
+                        <label for="post-content" class="form-label">Ответ</label>
+                        <textarea class="form-control" id="post-content" rows="3" name="post-content"
+                                                   placeholder="Напишите ответ">@(Model.FormModel is null?"":Model.FormModel.Content)</textarea>
+                    </div>
+                    <input type="hidden" name="topic-id" value="@Model.TopicIdString" />
+                    <input type="hidden" name="reply-id" value="@(Model.FormModel is null?"":Model.FormModel.ReplyId)" />
+
+                    <button type="submit" class="btn btn-light my-3">Опубликовать</button>
+                </form>
+            </div>
+        </div>
+    }
+
